@@ -1,0 +1,57 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Este archivo contiene escenarios de prueba de la web de Angular. Pertenece al curso de Protractor de OpenWebinars.",
+    "line": 1,
+    "id": "este-archivo-contiene-escenarios-de-prueba-de-la-web-de-angular.-pertenece-al-curso-de-protractor-de-openwebinars.",
+    "tags": [],
+    "uri": "src/Features/OpenWebinars.feature",
+    "elements": [
+      {
+        "id": "este-archivo-contiene-escenarios-de-prueba-de-la-web-de-angular.-pertenece-al-curso-de-protractor-de-openwebinars.;abrir-la-web-de-angular-https://angular.io/",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Abrir la web de angular https://angular.io/",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "el usuario abre la web de angular",
+            "match": {
+              "location": "src/step_definitions/mysteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "87.0.4280.141"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]

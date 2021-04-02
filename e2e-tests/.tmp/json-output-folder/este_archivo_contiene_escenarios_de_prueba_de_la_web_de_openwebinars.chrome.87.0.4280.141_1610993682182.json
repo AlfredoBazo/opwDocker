@@ -1,0 +1,117 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Este archivo contiene escenarios de prueba de la web de openwebinars.",
+    "line": 1,
+    "id": "este-archivo-contiene-escenarios-de-prueba-de-la-web-de-openwebinars.",
+    "tags": [],
+    "uri": "src/Features/OpenWebinars.feature",
+    "elements": [
+      {
+        "id": "este-archivo-contiene-escenarios-de-prueba-de-la-web-de-openwebinars.;login-fallido-introduciendo-distintos-valores.",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "login fallido introduciendo distintos valores.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario abre la web de angular",
+            "match": {
+              "location": "src/step_definitions/mysteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 996000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "hace click en el botón de start",
+            "match": {
+              "location": "src/step_definitions/mysteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1935000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "este-archivo-contiene-escenarios-de-prueba-de-la-web-de-openwebinars.;login-fallido-introduciendo-distintos-valores.",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "login fallido introduciendo distintos valores.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "el usuario abre la web de angular",
+            "match": {
+              "location": "src/step_definitions/mysteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "hace click en el botón de features",
+            "match": {
+              "location": "src/step_definitions/mysteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1892000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "../node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "87.0.4280.141"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
