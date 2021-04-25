@@ -27,7 +27,7 @@ exports.config = {
   ],
 
   allScriptsTimeout: 11000,
-  directConnect=true,
+  directConnect: true,
 
   specs: ['../e2e-tests/src/Features/*.feature'],
 
