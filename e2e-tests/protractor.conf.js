@@ -41,7 +41,7 @@ exports.config = {
   frameworkPath: require.resolve('protractor-cucumber-framework'), // Here it is
 
   cucumberOpts: {
-    format: [require.resolve('cucumber-pretty')],
+    format: [require.resolve('cucumber-pretty'), 'json: results.json'],
     require: '../e2e-tests/src/step_definitions/mysteps.js' // This is where we'll be writing our actual tests
   },
 
