@@ -11,7 +11,6 @@
     "angular-route": "^1.8.0",
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
-    "cucumber": "7.0.0-rc.0",
     "cucumber-pretty": "^6.0.0",
     "html5-boilerplate": "8.0.0",
     "protractor-cucumber-framework": "^8.0.2",
