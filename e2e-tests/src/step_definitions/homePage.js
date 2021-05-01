@@ -38,7 +38,7 @@ module.exports = {
 
     urlOpened: function(callback) {
         browser.wait(protractor.ExpectedConditions.urlContains(pageObject.homePage.url), ecTimeout).then(function() {
-            logger.info('Web de .' + pageObject.homePage.url + 'abierta');
+            logger.info('Web de ' + pageObject.homePage.url + 'abierta');
             callback();
         });
     },
