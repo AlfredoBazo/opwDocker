@@ -1,5 +1,5 @@
 "use strict";
-let { Given, When, Then } = require('cucumber');
+let { Given, When, Then } = require('@cucumber/cucumber');
 let homePage = require('./homePage.js');
 let utils = require('./../Utils/utils.js');
 const properties = require('./pageObject');
