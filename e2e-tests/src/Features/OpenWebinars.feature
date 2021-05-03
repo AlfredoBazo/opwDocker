@@ -1,12 +1,12 @@
 Feature: Este archivo contiene escenarios de prueba de la web de openwebinars.
 
-  @abrir
+  @abrir @todo
   Scenario: abrir la web de angular
     Given el usuario abre la web de angular
     Then la web abierta es la correcta
 
 
-  @secciones
+  @secciones @todo
   Scenario Outline: abrir distintas secciones de angular
     Given el usuario abre la web de angular
     Then la web abierta es la correcta
@@ -19,7 +19,7 @@ Feature: Este archivo contiene escenarios de prueba de la web de openwebinars.
       | resources |
       | events    |
 
-  @buscador
+  @buscador @todo
   Scenario Outline: realizar varias búsquedas.
     Given el usuario abre la web de angular
     Then la web abierta es la correcta
