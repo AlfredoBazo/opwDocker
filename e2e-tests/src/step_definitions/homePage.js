@@ -52,7 +52,7 @@ module.exports = {
      * @param callback
      */
     clickSeccion: function (seccion, callback) {
-        browser.wait(protractor.ExpectedConditions.elementToBeClickable(pageObject.homePage.boton[seccion]), ecTimeout).then(function () {
+        browser.wait(protractor.ExpectedConditions.elementToBeClickable(pageObject.homePage.boton.features), ecTimeout).then(function () {
             pageObject.homePage.boton[seccion].click().then(function () {
                 logger.info("La seccion" + seccion + "ha sido pulsada.");
                 callback();
