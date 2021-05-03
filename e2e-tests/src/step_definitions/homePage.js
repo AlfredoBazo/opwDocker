@@ -7,6 +7,7 @@ chai.use(chaiAsPromised);
 var utils = require('./../Utils/utils.js');
 const pageObject = require('./pageObject');
 const ecTimeout = 15000;
+var { setDefaultTimeout } = require("cucumber");
 setDefaultTimeout(60 * 1000);
 
 const log4js = require('log4js');
