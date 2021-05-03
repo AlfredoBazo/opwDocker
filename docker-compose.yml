@@ -26,7 +26,7 @@ services:
     container_name: protractor
     ports:
       - "9229:9229"
-    command: bash -c "apt update && apt install -y git && git clone -b main https://github.com/AlfredoBazo/opwDocker.git && cd opwDocker && npm install && node node_modules/protractor/bin/protractor e2e-tests/protractor.conf.js --cucumberOpts.tags=@test"
+    command: bash -c "apt update && apt install -y git && git clone -b main https://github.com/AlfredoBazo/opwDocker.git && cd opwDocker && npm install && node node_modules/protractor/bin/protractor e2e-tests/protractor.conf.js --cucumberOpts.tags=@todo"
     depends_on:
       - selenium-hub
       - chrome
