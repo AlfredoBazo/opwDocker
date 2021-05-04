@@ -11,7 +11,7 @@ exports.config = {
           };
         })
         .then(function(result) {
-          browser.driver.manage().window().setPosition(0, 0);
+//          browser.driver.manage().window().setPosition(0, 0);
           browser.driver.manage().window().setSize(result.width, result.height);
         });
   },
