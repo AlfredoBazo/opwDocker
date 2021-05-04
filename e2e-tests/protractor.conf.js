@@ -1,6 +1,10 @@
 //jshint strict: false
 exports.config = {
   seleniumAddress: 'http://selenium-hub:4444/wd/hub',
+  
+  onPrepare: function () {
+    browser.driver.manage().window().maximize();
+},
 
 //   onPrepare() {
 //     browser.driver
