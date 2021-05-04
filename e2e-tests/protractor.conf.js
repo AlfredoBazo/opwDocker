@@ -34,13 +34,10 @@ exports.config = {
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
-      args: [
-               'start-maximized'
-            ]
+      args: ['--window-size=1200,900']
     }
   },
 
-  //baseUrl: 'http://localhost:8000/',
 
   framework: 'custom',
   frameworkPath: require.resolve('protractor-cucumber-framework'), // Here it is
