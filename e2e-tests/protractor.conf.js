@@ -2,19 +2,19 @@
 exports.config = {
   seleniumAddress: 'http://selenium-hub:4444/wd/hub',
 
-  // onPrepare() {
-  //   browser.driver
-  //       .executeScript(function() {
-  //         return {
-  //           width: window.screen.availWidth,
-  //           height: window.screen.availHeight
-  //         };
-  //       })
-  //       .then(function(result) {
-  //         browser.driver.manage().window().setPosition(0, 0);
-  //         browser.driver.manage().window().setSize(result.width, result.height);
-  //       });
-  // },
+  onPrepare() {
+    browser.driver
+        .executeScript(function() {
+          return {
+            width: window.screen.availWidth,
+            height: window.screen.availHeight
+          };
+        })
+        .then(function(result) {
+          browser.driver.manage().window().setPosition(0, 0);
+          browser.driver.manage().window().setSize(result.width, result.height);
+        });
+  },
 //   plugins: [
 //     {
 //       package: require.resolve('protractor-multiple-cucumber-html-reporter-plugin'),
